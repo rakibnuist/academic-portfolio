@@ -4,7 +4,7 @@ Professional academic portfolio website showcasing research, publications, and e
 
 ## 🌐 Live Website
 
-[View Portfolio](#) *(Update with your GitHub Pages URL after deployment)*
+**[View Portfolio →](https://rakibnuist.github.io/academic-portfolio/)**
 
 ## 📄 About
 
