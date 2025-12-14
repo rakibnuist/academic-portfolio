@@ -254,22 +254,26 @@ a:hover {
 }
 
 .hero-profile {
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    display: flex;
+    justify-content: center;
 }
 
 .profile-image {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid var(--accent-color);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    object-position: center;
+    border: 6px solid var(--accent-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
 }
 
 .profile-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 12px 32px rgba(212, 175, 55, 0.3);
+    transform: scale(1.08);
+    box-shadow: 0 15px 40px rgba(212, 175, 55, 0.4);
+    border-color: var(--accent-hover);
 }
 
 /* ================================
@@ -955,8 +959,9 @@ a:hover {
     }
 
     .profile-image {
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
+        border-width: 5px;
     }
 
     .btn {
