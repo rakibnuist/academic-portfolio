@@ -253,6 +253,25 @@ a:hover {
     gap: var(--spacing-sm);
 }
 
+.hero-profile {
+    margin-bottom: var(--spacing-lg);
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--accent-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transition: var(--transition);
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 32px rgba(212, 175, 55, 0.3);
+}
+
 /* ================================
    Buttons
    ================================ */
@@ -933,6 +952,11 @@ a:hover {
 
     .hero-links {
         flex-direction: column;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
     }
 
     .btn {
